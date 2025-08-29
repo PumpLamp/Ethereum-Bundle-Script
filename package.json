@@ -1,0 +1,41 @@
+{
+  "name": "bundle-buy-bot",
+  "version": "1.0.0",
+  "description": "This is bundle buy bot for lauching token on evm.",
+  "main": "app.js",
+  "scripts": {
+    "launch": "node app.js --launch",
+    "simulate": "node app.js --simulate",
+    "start": "node app.js --simulate",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PumpLamp/Ethereum-Bundle-Script.git"
+  },
+  "keywords": [
+    "bundle",
+    "buy",
+    "bot"
+  ],
+  "author": "PumpLamp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PumpLamp/Ethereum-Bundle-Script/issues"
+  },
+  "homepage": "https://github.com/PumpLamp/Ethereum-Bundle-Script#readme",
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "0.6.2",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "bignumber.js": "^9.1.2",
+    "chalk": "^5.6.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "figlet": "^1.7.0",
+    "fs": "^0.0.1-security",
+    "ganache": "^7.9.2",
+    "program-commander": "14.1.4",
+    "web3": "^4.13.0"
+  }
+}
