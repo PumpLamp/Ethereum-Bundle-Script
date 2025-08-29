@@ -11,6 +11,8 @@
 
    Please install node > 18.1.0
 
+
+
 ## 2. Set the environment variables to .env file.
 
    1. Create a .env file to run this command.
@@ -39,13 +41,20 @@
 
       `ZOMBIES`: private keys of 2 zombie wallets. zombie wallet 0: to use token launch such as add liquidity, enable trading, zombie wallet 1: to use disperse ETH into trading wallets used to buy and sell tokens.
 
+
+      
+
 ## 3. To show description of this script, you can run this command.
 
    ```node app.js -h```
 
    ```node app.js --version```
 
+   
+
 ## 4. You should send ETH_FOR_LIQUIDITY eth amount and TOKEN_FOR_LIQUIDITY token amount to first zombie wallet.
+
+
 
 ## 5. To launch token SENARIO 1.
 
@@ -60,7 +69,8 @@
    ```node app.js --method 0x8a8c523c --buy --simulate``` : simulate enable openTranding and first buy bundling to calculate needed ETH amount for zombie wallets before launch.
 
    You can see these strings on console
-
+   
+   ```
    ┌─────────┬────────────────┬──────────────────────────────────────────────┬─────────┐
    │ (index) │ wallet         │ address                                      │ diffETH │
    ├─────────┼────────────────┼──────────────────────────────────────────────┼─────────┤
@@ -75,13 +85,17 @@
    │ 0       │ 'dev wallet 0' │ '0x36E0b2932131b7932FE3a1Cd41c44E11A1a0D032' │ 0       │
    │ 1       │ 'dev wallet 1' │ '0x7E1fdE4bF6943b64c3870406e7e6618A09EEbD95' │ 0       │
    └─────────┴────────────────┴──────────────────────────────────────────────┴─────────┘
+   ```
+
    This is success in simulation.
 
-   `If simulate continues to be failed, please contact to @PumpGuru01 through telegram.`
+### If simulate continues to be failed, please contact to @PumpGuru01 through telegram.
 
    ```node app.js --method 0xc963af --buy``` : enable openTranding and first buy really.
 
    ```node app.js --check-trading-wallets``` : check your trading wallets
+
+   
 
 ## 6. To launch token SENARIO 2.
 
@@ -91,6 +105,7 @@
 
    You can see these strings on console
 
+   ```
    ┌─────────┬────────────────┬──────────────────────────────────────────────┬─────────┐
    │ (index) │ wallet         │ address                                      │ diffETH │
    ├─────────┼────────────────┼──────────────────────────────────────────────┼─────────┤
@@ -105,6 +120,7 @@
    │ 0       │ 'dev wallet 0' │ '0x36E0b2932131b7932FE3a1Cd41c44E11A1a0D032' │ 0       │
    │ 1       │ 'dev wallet 1' │ '0x7E1fdE4bF6943b64c3870406e7e6618A09EEbD95' │ 0       │
    └─────────┴────────────────┴──────────────────────────────────────────────┴─────────┘
+   ```
    This is success in simulation.
 
 ### If simulate continues to be failed, please contact to @PumpGuru01 through telegram.
@@ -113,6 +129,9 @@
 
    ```node app.js --check-trading-wallets```: check your trading wallets
 
+
+
+
 ## 7. To sell your token.
 
    ```node app.js --sell wallet_addr1``` : sell tokens specific one wallet address without bundling.
@@ -120,9 +139,15 @@
    ```node app.js --sell-all``` : sell tokens of all trading wallets
    ```node app.js --check-trading-wallets``` : check your trading wallets
 
+
+   
+
 ## 8. To buy token.
 
    ```node app.js --buy```: buy tokens with your trading wallets.
+
+
+
 
 ## 9. To refund all ETh to zombie wallet #1
 
