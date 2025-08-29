@@ -135,8 +135,11 @@
 ## 7. To sell your token.
 
    ```node app.js --sell wallet_addr1``` : sell tokens specific one wallet address without bundling.
+   
    ```node app.js --sell wallet_addr1,wallet_addr2,wallet_addr3``` : sell tokens specific wallet address.
+   
    ```node app.js --sell-all``` : sell tokens of all trading wallets
+   
    ```node app.js --check-trading-wallets``` : check your trading wallets
 
 
