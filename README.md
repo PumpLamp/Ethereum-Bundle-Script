@@ -4,7 +4,7 @@
 
 ## 1. To install node modules to run this command.
 
-   ```npm install```
+   ``npm install``
 
    Please install node > 18.1.0
 
@@ -12,7 +12,7 @@
 
    ### 1. Create a .env file to run this command.
 
-      ```mv env.example .env```
+   ``mv env.example .env``
 
    ### 2. Set the variables in .env file.
 
