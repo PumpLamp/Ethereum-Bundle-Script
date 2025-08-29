@@ -1,5 +1,8 @@
 # Ethereum Bundle Script for Ethereum bundle launch
 
+<img src="screenshot.jpg"></img>
+
+
 
 
 ## 1. To install node modules to run this command.
@@ -10,11 +13,11 @@
 
 ## 2. Set the environment variables to .env file.
 
-   ### 1. Create a .env file to run this command.
+   1. Create a .env file to run this command.
 
    ``mv env.example .env``
 
-   ### 2. Set the variables in .env file.
+   2. Set the variables in .env file.
 
       `CHAINID`: chain id to launch your token. 1 or 11155111
 
@@ -104,7 +107,7 @@
    └─────────┴────────────────┴──────────────────────────────────────────────┴─────────┘
    This is success in simulation.
 
-   ### If simulate continues to be failed, please contact to @PumpGuru01 through telegram.
+### If simulate continues to be failed, please contact to @PumpGuru01 through telegram.
 
    ```node app.js --addliquidity --buy``` : if your token smart contract doesn't have openTrading() function, use this command.
 
