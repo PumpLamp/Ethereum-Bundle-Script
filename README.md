@@ -17,7 +17,7 @@
 
    1. Create a .env file to run this command.
 
-   ``mv env.example .env``
+      ``mv env.example .env``
 
    2. Set the variables in .env file.
 
