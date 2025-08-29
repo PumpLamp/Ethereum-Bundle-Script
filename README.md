@@ -1,4 +1,4 @@
-# Ethereum Bundle Script for Ethereum bundle launch
+# Ethereum Bundle Script for bundle launch
 
 <img src="screenshot.jpg"></img>
 
